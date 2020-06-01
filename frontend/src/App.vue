@@ -14,14 +14,12 @@
 <script>
 
 import vHeader from './components/vHeader';
-import vRegistration from './components/vRegistration';
 import vFooter from './components/vFooter';
 
   export default {
     name: 'App',
     components: {
       vHeader,
-      vRegistration,
       vFooter
     }
   }
@@ -34,6 +32,7 @@ import vFooter from './components/vFooter';
     }
     .content {
         min-height: calc(100vh - 464px);
+        padding: 0 40px;
     }
 </style>
 
